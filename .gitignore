@@ -1,0 +1,41 @@
+############################
+# Java / Spring Boot
+############################
+target/
+bin/
+*.class
+*.log
+
+############################
+# Maven
+############################
+.mvn/
+dependency-reduced-pom.xml
+
+############################
+# React / Node
+############################
+frontend/node_modules/
+node_modules/
+frontend/build/
+build/
+.cache/
+
+############################
+# IDE Files
+############################
+.idea/
+.vscode/
+*.iml
+
+############################
+# OS Files
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Environment Files
+############################
+.env
+.env.*
